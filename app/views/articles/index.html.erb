@@ -1,0 +1,6 @@
+<div class="container mt-3">
+  <% @articles.each do |article| %>
+    <h3><%= article.title %></h3>
+    <p><%= article.content %></p>
+  <% end %>
+</div>
